@@ -1,0 +1,9 @@
+<launch>
+
+  <!-- This node helps the robot navigate autonomously around the field-->
+  <node name="top_nav_goal" pkg="weed_robot" type="top_nav_goal.py"/>
+
+  <!-- Performs the movement of robot to weed location, and sprays it-->
+  <node name="weed_spray" pkg="weed_robot" type="weed_spray.py"/>
+  
+</launch>

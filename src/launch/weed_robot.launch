@@ -1,0 +1,10 @@
+<launch> 
+
+    <!-- Include original launch file containing thorvald_001 simulation-->
+    <include file="$(find uol_cmp9767m_base)/launch/thorvald-sim.launch" />
+
+    <!-- Include topology launch file, gotten from Marc HanHeide-->
+    <include file="$(find uol_cmp9767m_tutorial)/launch/move_base_topo_nav.launch" />
+    <include file="$(find uol_cmp9767m_tutorial)/launch/topo_nav.launch" />
+    
+</launch>
