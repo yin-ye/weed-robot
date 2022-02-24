@@ -6,17 +6,11 @@
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-<!-- * [License](#license) -->
-
 
 
 ## Technologies Used
 - Darknet
-= ROS
+- ROS
 - Gazebo
 - Rviz
 
